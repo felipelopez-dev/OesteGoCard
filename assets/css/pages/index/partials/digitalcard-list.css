@@ -1,0 +1,23 @@
+.digitalcard-list {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.digitalcardlist-listofphrases {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.digitalcardlist-imageiconcheck {
+    width: 2.3rem;
+    height: 2.3rem;
+    margin-right: 1rem;
+}
+
+.digitalcardlist-text{
+    margin: 0;
+    font-size: 1.6rem;
+    font-weight: 500;
+}

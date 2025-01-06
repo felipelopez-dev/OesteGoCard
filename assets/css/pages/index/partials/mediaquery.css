@@ -1,0 +1,87 @@
+@media (min-width: 320px) and (max-width: 480px) {
+    .digitalcard {
+        height: 100%;
+        padding: 1.4rem;
+        border: none;
+        overflow: scroll;
+    }
+
+    :is(.digitalcardheader-btnqrcode, .digitalcardheader-btnshare) {
+        width: 13rem;
+        height: 3rem;
+        font-size: 1.2rem;
+    }
+    
+    .digitalcardprofile-imagegradientprofile {
+        width: 10rem;
+        height: 10rem;
+    }
+    
+    .digitalcardprofile-userphoto {
+        width: 8rem;
+        height: 8rem;
+    }
+    
+    .digitalcardprofile-btnwhatsaap {
+        width: 20rem;
+        margin-top: 1.5rem;
+        font-size: 1.8rem;
+    }
+
+    .digitalcardprofile-imageiconwhatsaap {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .digitalcardlist-imageiconcheck {
+        width: 2rem;
+        height: 2rem;
+        margin-right: 2rem;
+    }
+
+    .digitalcardshare-btn {
+        width: 7rem;
+        height: 7rem;
+    }
+
+    :is(.digitalcardshare-imageiconinstagram, .digitalcardshare-imageiconfacebook) {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .digitalcardshare-imageiconoestego {
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .digitalcardshare-linkstitle {
+        font-size: 1.4rem;
+        margin-top: 1rem;
+    }
+
+    .digitalcardfooter-info {
+        font-size: 1.4rem;
+    }
+
+    .digitalcardshare-imageiconapple {
+        width: 4rem;
+        height: 4rem;
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+
+    .digitalcardshare-textapple {
+        font-size: 1.6rem;
+    }
+
+    .digitalcardshare-imageicongoogleplay {
+        width: 3.5rem;
+        height: 3.5rem;
+        margin-left: 2.5rem;
+    } 
+
+    .digitalcardshare-textgoogleplay {
+        font-size: 1.6rem;
+        margin-left: 2.1rem;
+    }
+}

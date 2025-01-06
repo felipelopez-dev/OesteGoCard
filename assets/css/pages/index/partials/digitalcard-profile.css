@@ -1,0 +1,69 @@
+.digitalcard-profile {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.digitalcardprofile-imagegradientprofile {
+    margin-top: 1rem;
+    width: 16rem;
+    height: 16rem;
+    display: inline-block;
+    padding: 1rem;
+    border-radius: 50%;
+    background: linear-gradient(150deg, var(--color-light-blue), var(--color-white));
+}
+
+.digitalcardprofile-userphoto {
+    width: 14rem;
+    height: 14rem;          
+    display: block;
+    border-radius: 50%;
+}
+
+.digitalcardprofile-title {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.digitalcardprofile-subtitle {
+    font-weight: 400;
+    font-size: 2rem;
+    width: 25rem;
+    line-height: 2rem;
+    text-align: center;
+}
+
+.digitalcardprofile-btnwhatsaap {
+    width: 26rem;
+    height: 4.3rem;
+    background-color: var(--color-green);
+    border-radius: 5rem;
+    display: flex;
+    align-items: center;
+    color: var(--color-white);
+    font-weight: 500;
+    font-size: 2.4rem;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.1s ease;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4);
+    margin-top: 1rem;
+    margin-bottom: -0.8rem;
+}
+
+.digitalcardprofile-btnwhatsaap:active {
+    transform: translateY(2px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4);
+}
+
+.digitalcardprofile-btnwhatsaap:hover {
+    background-color: var(--color-cyan-green);
+}
+
+.digitalcardprofile-imageiconwhatsaap {
+    width: 3.5rem;  
+    height: 3.5rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
