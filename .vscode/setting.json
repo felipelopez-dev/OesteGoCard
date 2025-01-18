@@ -1,0 +1,78 @@
+{
+	"breadcrumbs.enabled": false,
+	"beautify.language": {
+		"html": ["html"],
+		"css": ["css", "scss"],
+		"js": ["javascript", "json", "js"]
+	},
+	"beautify.config": {
+		"html": {
+			"end_with_newline": true,
+			"indent_size": 2,
+			"indent_with_tabs": false,
+			"preserve_newlines": true,
+			"max_preserve_newlines": 2,
+			"wrap_line_length": 120,
+			"indent_inner_html": false,
+			"unformatted": ["head", "script", "style"]
+		}
+	},
+
+	"[css]": {
+		"editor.defaultFormatter": "stylelint.vscode-stylelint"
+	},
+
+	"editor.cursorBlinking": "expand",
+	"editor.cursorSmoothCaretAnimation": "on",
+	"editor.codeActionsOnSave": {
+		"source.fixAll.stylelint": "explicit"
+	},
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnSave": true,
+	"editor.fontFamily": "JetBrains Mono",
+	"editor.fontLigatures": true,
+	"editor.fontSize": 17,
+	"editor.inlineSuggest.suppressSuggestions": true,
+	"editor.lineHeight": 1.8,
+	"editor.minimap.enabled": false,
+	"editor.renderLineHighlight": "gutter",
+	"editor.rulers": [80, 120],
+	"editor.semanticHighlighting.enabled": true,
+	"editor.stickyScroll.enabled": false,
+	"emmet.triggerExpansionOnTab": true,
+	"emmet.showAbbreviationSuggestions": true,
+	"eslint.options": {
+		"configFile": ".eslintrc.js"
+	},
+	"explorer.compactFolders": false,
+
+	"[html]": {
+		"editor.defaultFormatter": "vsce-toolroom.vscode-beautify"
+	},
+
+	"[less]": {
+		"editor.defaultFormatter": "stylelint.vscode-stylelint"
+	},
+
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+
+	"[scss]": {
+		"editor.defaultFormatter": "stylelint.vscode-stylelint"
+	},
+
+	"prettier.singleQuote": true,
+	"prettier.trailingComma": "es5",
+	"prettier.tabWidth": 2,
+	"prettier.printWidth": 120,
+	"prettier.requireConfig": true,
+
+	"window.commandCenter": false,
+	"workbench.activityBar.location": "hidden",
+	"workbench.colorTheme": "Dracula Theme",
+	"workbench.editor.labelFormat": "short",
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.layoutControl.enabled": false,
+	"workbench.tree.indent": 10
+}

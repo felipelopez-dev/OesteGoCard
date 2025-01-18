@@ -5,9 +5,5 @@ node_modules/
 dist/
 build/
 
-# Editor configuration
-.vscode/
-.idea/
-
 # Color file
 color.txt
