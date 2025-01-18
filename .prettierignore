@@ -1,0 +1,5 @@
+*.html
+dist
+.gitattributes
+.gitignore
+.eslintignore

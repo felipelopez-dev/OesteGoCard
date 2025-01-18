@@ -1,6 +1,6 @@
-@import './partials/digitalcard-header.css';
-@import './partials/digitalcard-profile.css';
-@import './partials/digitalcard-share.css';
-@import './partials/digitalcard-list.css';
-@import './partials/digitalcard-footer.css';
-@import './partials/mediaquery.css';
+@import url('./partials/digitalcard-header.css');
+@import url('./partials/digitalcard-profile.css');
+@import url('./partials/digitalcard-share.css');
+@import url('./partials/digitalcard-list.css');
+@import url('./partials/digitalcard-footer.css');
+@import url('./partials/mediaquery.css');

@@ -1,0 +1,36 @@
+{
+	"name": "oestegocard",
+	"version": "1.0.0",
+	"description": "Cartão digital de divulgação rede social do aplicativo mobilidade urbana Oeste-GO",
+	"main": "index.html",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"lint": "eslint"
+	},
+	"repository": {
+		"type": "git",
+		"url": ""
+	},
+	"keywords": [
+		"Aplicativo de mobilidade",
+		"Aplicativo de transporter urbano",
+		"Aplicativo Oeste-Go",
+		"Oeste-Go"
+	],
+	"author": "Felipe Lopez",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/felipelopez-dev/OesteGoCard.git"
+	},
+	"homepage": "https://github.com/felipelopez-dev/OesteGoCard#readme",
+	"devDependencies": {
+		"eslint": "^9.18.0",
+		"eslint-config-prettier": "^10.0.1",
+		"js-beautify": "^1.15.1",
+		"prettier": "3.4.2",
+		"stylelint": "^16.13.2",
+		"stylelint-config-standard": "^37.0.0",
+		"stylelint-order": "^6.0.4"
+	}
+}

@@ -1,1 +1,13 @@
-color.text
+# Dependencies
+node_modules/
+
+# Build files
+dist/
+build/
+
+# Editor configuration
+.vscode/
+.idea/
+
+# Color file
+color.txt
