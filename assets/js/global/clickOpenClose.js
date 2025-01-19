@@ -1,7 +1,7 @@
 const modalControl = () => {
-	const socialNetwork = document.querySelector('.digitalcardheader-socialnetwork');
-	const appSharing = document.querySelector('.digitalcardshare-downloadplatform');
-	const closeIcon = document.querySelector('.digitalcardshare-close');
+	const socialNetwork = document.querySelector('.digitalcard-social');
+	const appSharing = document.querySelector('.digitalcard-down');
+	const closeIcon = document.querySelector('.digitalcard--areaclose');
 
 	if (closeIcon) {
 		appSharing.style.display = 'none';
@@ -12,9 +12,7 @@ const modalControl = () => {
 	}
 };
 
-const clickCloseElements = document.querySelectorAll(
-	'.digitalcardshare-close, .digitalcardshare-downloadplaform, .digitalcardheader-socialnetwork'
-);
+const clickCloseElements = document.querySelectorAll('.digitalcard--areaclose, .digitalcard-down, .digitalcard-social');
 clickCloseElements.forEach((element) => {
 	element.addEventListener('click', () => {
 		modalControl();

@@ -13,6 +13,7 @@ html {
 
 body {
   align-items: center;
+	background: linear-gradient(45deg, var(--color-dark-blue), var(--color-light-blue)) ;
   display: flex;
   font-family: var(--font-primary);
   font-size: 1.6rem;
@@ -20,9 +21,9 @@ body {
   -webkit-font-smoothing: antialiased;
   font-style: normal;
   font-weight: 500;
-  height: 100vh;
   justify-content: center;
-  width: 100vw;
+	min-height: 100vh;
+  width: 100%;
 }
 
 ul, ol {

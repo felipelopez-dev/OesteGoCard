@@ -1,21 +1,22 @@
- /* Neutrals */
- --color-black: #000000;
- --color-light-gray: #f5f5f5;
- --color-white: #ffffff
+/* Neutrals */
+--color-black: #000000;
+--color-light-gray: #f5f5f5;
+--color-white: #ffffff;
 
-# Blue color palette
- --color-dark-blue: #003366;
- --color-medium-blue: #0d4f83;
- --color-intense-blue: #0056b3;
- --color-light-blue: #66a3e0;
- --color-light-sky-blue: #09c5ff
+/* Blue Color Palette */
+--color-dark-blue: #003366;
+--color-medium-blue: #0d4f83;
+--color-intense-blue: #0056b3;
+--color-light-blue: #66a3e0;
+--color-light-sky-blue: #09c5ff;
+--color-alice-blue: #d0e8ff;
 
- # Green color palette
- --color-cyan-green: #3aaa74;
- --color-green: #00bf63;
- --color-lime-green: #8cff00;
- --color-light-turquoise: #00ffe1
+/* Green Color Palette */
+--color-cyan-green: #3aaa74;
+--color-green: #00bf63;
+--color-lime-green: #8cff00;
+--color-light-turquoise: #00ffe1;
 
- # Other colors palette
- --color-mustard-yellow: #fecf12;
- --color-vibrant-pink: #fb3997;
+/* Other Colors Palette */
+--color-mustard-yellow: #fecf12;
+--color-vibrant-pink: #fb3997;

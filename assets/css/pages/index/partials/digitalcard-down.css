@@ -1,0 +1,78 @@
+.digitalcard-down {
+	background-color: #d0e8ff;
+	border-radius: 1rem;
+	box-shadow: 0 1rem 2rem rgb(0 0 0 / 20%);
+	display: none;
+	height: 26rem;
+	left: 50%;
+	max-width: 50rem;
+	padding: 2rem;
+	position: fixed;
+	top: 50%;
+	transform: translate(-50%, -60%);
+	width: 100%;
+	z-index: 10;
+}
+
+.digitalcarddown-platformlinks {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	margin-top: 0.5rem;
+	width: 100%;
+}
+
+.digitalcarddown-btndownload {
+	align-items: center;
+	background-color: var(--color-white);
+	border-radius: 2rem;
+	box-shadow: 0 1rem 2rem rgb(0 0 0 / 50%);
+	display: flex;
+	height: 7rem;
+	justify-content: center;
+	transition: all 0.2s ease-in-out;
+	width: 30rem;
+	position: relative;
+	z-index: 5;
+
+	&:hover {
+		box-shadow: 0 1.5rem 2rem rgb(0 0 0 / 30%);
+		transform: scale(1.1);
+	}
+
+	&:active {
+		box-shadow: 0 2rem 5rem rgb(0 0 0 / 20%);
+		transform: translateY(1rem);
+	}
+}
+
+.digitalcarddown-imageiconapple  {
+	height: 5rem;
+	width: 5rem;
+}
+
+.digitalcarddown-textapple {
+	font-size: 2rem;
+	font-weight: 500;
+	line-height: 2rem;
+	margin-left: 2rem;
+	margin-top: 1rem;
+	text-align: left;
+	width: 10rem;
+}
+
+.digitalcarddown-imageicongoogleplay {
+	height: 6rem;
+	margin-left: 5rem;
+	width: 5rem;
+}
+
+.digitalcarddown-textgoogleplay {
+	font-size: 2rem;
+	font-weight: 500;
+	line-height: 2rem;
+	margin-left: 2rem;
+	text-align: left;
+	width: 15rem;
+}

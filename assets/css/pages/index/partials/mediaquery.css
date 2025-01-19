@@ -1,0 +1,212 @@
+@media (width >= 320px) and (width <= 480px) {
+	.digitalcard {
+		background: linear-gradient(
+		135deg,
+		var(--color-dark-blue) 0%,
+		var(--color-dark-blue) 20%,
+		var(--color-medium-blue) 20%,
+		var(--color-medium-blue) 100%,
+		var(--color-light-blue) 40%,
+		var(--color-light-blue) 70%,
+		var(--color-light-gray) 70%,
+		var(--color-light-gray) 100%
+	);
+	}
+
+	.digitalcard-header {
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+		gap: 2rem;
+		margin-bottom: 2rem;
+	}
+
+	:is(.digitalcardheader-btnqrcode, .digitalcardheader-btnshare) {
+		width: 20rem;
+	}
+
+	.digitalcardprofile-title {
+		margin-top: 1rem;
+	}
+
+	.digitalcardprofile-subtitle{
+		text-align: center;
+	}
+
+	.digitalcardprofile-btnwhatsaap {
+		font-size: 1.8rem;
+		width: 20rem;
+
+		& .digitalcardprofile-imageiconwhatsaap {
+			height: 3rem;
+			width: 3rem;
+		}
+	}
+
+	.digitalcardlist-listofphrases {
+    & .digitalcardlist-text {
+			font-size: 1.6rem;
+    }
+	}
+
+	.digitalcard-share {
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+		gap: 4rem;
+	}
+
+	.digitalcard-footer {
+		width: 100%;
+	}
+
+	.digitalcardfooter-areainfor {
+		border-radius: 1rem;
+	}
+
+	.digitalcardfooter-info  {
+		font-size: 1.5rem;
+		margin-right: 0.1rem;
+	}
+
+	.digitalcardfooter-imageiconclick {
+		height: 3rem;
+		width: 3rem;
+	}
+}
+
+@media (width >= 481px) and (width <= 768px) {
+	.digitalcard-header {
+		margin-bottom: 2rem;
+	}
+
+	.digitalcardprofile-imagegradientprofile {
+		height: 9rem;
+		width: 9rem;
+
+		& .digitalcardprofile-userphoto {
+			height: 8rem;
+			width: 8rem;
+	  }
+	}
+
+	.digitalcardprofile-subtitle {
+		font-size: 1.6rem;
+	}
+
+	.digitalcardprofile-btnwhatsaap {
+		font-size: 1.8rem;
+		width: 28rem;
+	}
+
+	.digitalcardlist-listofphrases {
+    & .digitalcardlist-text {
+			font-size: 1.6rem;
+    }
+	}
+
+	.digitalcard-share {
+		margin-top: 1rem;
+	}
+
+	.digitalcard-footer {
+		max-width: 54rem;
+		width: 100%;
+	}
+}
+
+@media (width >= 769px) and (width <= 1024px) {
+	.digitalcard-header {
+		margin-bottom: 2rem;
+	}
+
+	.digitalcardprofile-imagegradientprofile {
+		height: 9rem;
+		width: 9rem;
+
+		& .digitalcardprofile-userphoto {
+			height: 8rem;
+			width: 8rem;
+	  }
+	}
+
+	.digitalcardprofile-subtitle {
+		font-size: 1.6rem;
+	}
+
+	.digitalcardprofile-btnwhatsaap {
+		font-size: 1.8rem;
+		width: 28rem;
+	}
+
+	.digitalcardlist-listofphrases {
+    & .digitalcardlist-text {
+			font-size: 1.6rem;
+    }
+	}
+
+	.digitalcard-share {
+		margin-top: 1rem;
+	}
+
+	.digitalcard-footer {
+		max-width: 54rem;
+		width: 100%;
+	}
+}
+
+@media (width >= 1025px) and (width <= 1200px) {
+	.digitalcard-header {
+		margin-bottom: 2rem;
+	}
+
+	.digitalcardprofile-imagegradientprofile {
+		height: 9rem;
+		width: 9rem;
+
+		& .digitalcardprofile-userphoto {
+			height: 8rem;
+			width: 8rem;
+	  }
+	}
+
+	.digitalcardprofile-subtitle {
+		font-size: 1.6rem;
+	}
+
+	.digitalcardprofile-btnwhatsaap {
+		font-size: 1.8rem;
+		width: 28rem;
+	}
+
+	.digitalcardlist-listofphrases {
+    & .digitalcardlist-text {
+			font-size: 1.6rem;
+    }
+	}
+
+	.digitalcard-share {
+		margin-top: 1rem;
+	}
+
+	.digitalcard-footer {
+		margin-top: 1rem;
+		max-width: 54rem;
+		width: 100%;
+	}
+}
+
+@media (width >= 1201px) {
+  .digitalcard {
+		overflow: hidden;
+		padding: 4rem;
+	}
+
+	.digitalcard-share {
+		margin: 0;
+	}
+
+	.digitalcard-footer {
+		margin-top: 1rem;
+	}
+}

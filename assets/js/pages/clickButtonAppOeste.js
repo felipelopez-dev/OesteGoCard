@@ -1,6 +1,6 @@
 const buttonAppOeste = () => {
 	const appOesteGo = document.querySelector('.digitalcardshare--btnoestego');
-	const downloadApp = document.querySelector('.digitalcardshare-downloadplatform');
+	const downloadApp = document.querySelector('.digitalcard-down');
 
 	if (appOesteGo) {
 		downloadApp.style.display = 'block';

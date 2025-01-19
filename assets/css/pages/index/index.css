@@ -1,5 +1,7 @@
 @import url('./partials/digitalcard-header.css');
+@import url('./partials/digitalcard-social.css');
 @import url('./partials/digitalcard-profile.css');
+@import url('./partials/digitalcard-down.css');
 @import url('./partials/digitalcard-share.css');
 @import url('./partials/digitalcard-list.css');
 @import url('./partials/digitalcard-footer.css');

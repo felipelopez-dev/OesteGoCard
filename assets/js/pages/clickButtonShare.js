@@ -1,6 +1,6 @@
 const buttonShareSocial = () => {
 	const buttonShare = document.querySelector('.digitalcardheader-btnshare');
-	const shareSocial = document.querySelector('.digitalcardheader-socialnetwork');
+	const shareSocial = document.querySelector('.digitalcard-social');
 
 	if (buttonShare) {
 		shareSocial.style.display = 'block';
