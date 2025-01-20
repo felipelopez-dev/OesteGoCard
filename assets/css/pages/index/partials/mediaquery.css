@@ -195,3 +195,58 @@
 		width: 100%;
 	}
 }
+
+@media (width >= 1201px) {
+	.digitalcard-header {
+		margin-bottom: 2rem;
+	}
+
+	.digitalcardprofile-imagegradientprofile {
+		height: 9rem;
+		width: 9rem;
+
+		& .digitalcardprofile-userphoto {
+			height: 8rem;
+			width: 8rem;
+	  }
+	}
+
+	.digitalcardprofile-subtitle {
+		font-size: 1.6rem;
+	}
+
+	.digitalcardprofile-btnwhatsaap {
+		font-size: 1.8rem;
+		width: 28rem;
+	}
+
+	.digitalcardlist-listofphrases {
+    & .digitalcardlist-text {
+			font-size: 1.6rem;
+    }
+	}
+
+	.digitalcardshare-btn {
+		height: 7rem;
+		width: 7rem;
+	}
+
+	.digitalcardshare-imageiconinstagram {
+    height: 7rem;
+    width: 7rem;
+ }
+
+	.digitalcardshare-imageiconfacebook {
+    height: 6rem;
+    width: 6rem;
+ }
+
+	.digitalcardshare-imageiconoestego {
+    height: 6rem;
+    width: 6rem;
+ }
+
+	.digitalcard-share {
+		margin: 0;
+	}
+}
