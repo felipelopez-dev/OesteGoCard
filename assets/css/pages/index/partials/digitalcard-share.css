@@ -1,11 +1,7 @@
-.digitalcardshare-downloadplatform {
-	display: none;
-}
-
 .digitalcard-share {
 	display: flex;
 	justify-content: space-around;
-	margin-top: 3rem;
+	margin-bottom: 1rem;
 	width: 100%;
 }
 
