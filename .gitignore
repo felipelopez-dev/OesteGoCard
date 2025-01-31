@@ -5,5 +5,8 @@ node_modules/
 dist/
 build/
 
+# Vscode 
+.vscode
+
 # Color file
 color.txt
